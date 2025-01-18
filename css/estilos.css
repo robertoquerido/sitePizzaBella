@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
+  color: #AA3F35;
+}
+
+
+header {
+  height: 5vh;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around
+}
+
+.fundoCapa {
+  background-image: url(../assets/pizza-2589577.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100vw;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around
+}
+
+.logo {
+  background-image: url(../assets/logo2025.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 17.7641vw;
+}
+
+.numeroSecao {
+  background-image: url(../assets/bg_white.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100vw;
+}
